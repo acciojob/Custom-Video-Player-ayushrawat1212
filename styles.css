@@ -160,3 +160,15 @@ input[type=range]::-moz-range-thumb {
   background: #ffc600;
   cursor: pointer;
 }
+
+.error-message {
+    display: block;
+  color: white;
+  background-color: red;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+}
